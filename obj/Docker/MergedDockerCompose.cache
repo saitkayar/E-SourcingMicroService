@@ -4,7 +4,7 @@ services:
     build:
       context: C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService
       dockerfile: ESourcing.Products/Dockerfile
-    container_name: esourcingproduct
+    container_name: esourcingproducts
     depends_on:
       sourcingdb:
         condition: service_started
