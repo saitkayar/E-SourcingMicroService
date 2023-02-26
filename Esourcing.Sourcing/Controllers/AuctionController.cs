@@ -1,5 +1,9 @@
-﻿using Esourcing.Sourcing.Entities;
+﻿using AutoMapper;
+using Esourcing.Sourcing.Entities;
 using Esourcing.Sourcing.Repositories.Interfaces;
+using EventBusRabbitMQ.Core;
+using EventBusRabbitMQ.Events;
+using EventBusRabbitMQ.Producer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -13,17 +17,23 @@ namespace Esourcing.Sourcing.Controllers
         private readonly IAuctionRepository _auctionRepository;
         private readonly IBidRepository _bidRepository;
         private readonly ILogger<AuctionController> _logger;
+        private readonly IMapper _mapper;
+        private readonly EventBusRabbitMQProducer _eventBus;
 
         public AuctionController(
             IAuctionRepository auctionRepository,
             IBidRepository bidRepository,
-            
-            ILogger<AuctionController> logger)
+
+            ILogger<AuctionController> logger,
+            IMapper mapper,
+            EventBusRabbitMQProducer eventBus)
         {
             _auctionRepository = auctionRepository;
             _bidRepository = bidRepository;
-           
+
             _logger = logger;
+            _mapper = mapper;
+            _eventBus = eventBus;
         }
 
         [HttpGet]
@@ -94,9 +104,10 @@ namespace Esourcing.Sourcing.Controllers
             if (bid == null)
                 return NotFound();
 
-           
-          
 
+            OrderCreateEvent eventMessage = _mapper.Map<OrderCreateEvent>(bid);
+
+            eventMessage.Quantity=auction.Quantity;
             auction.Status = (int)Status.Closed;
             bool updateResponse = await _auctionRepository.Update(auction);
             if (!updateResponse)
@@ -107,7 +118,7 @@ namespace Esourcing.Sourcing.Controllers
 
             try
             {
-                
+                _eventBus.Publish(EventBusConstants.OrderCreateQueue,eventMessage);
             }
             catch (Exception ex)
             {
@@ -116,6 +127,28 @@ namespace Esourcing.Sourcing.Controllers
             }
 
             return Accepted();
+        }
+        [HttpPost("TestEvent")]
+        public ActionResult<OrderCreateEvent> TestEvent()
+        {
+            OrderCreateEvent eventMessage = new OrderCreateEvent();
+            eventMessage.AuctionId = "dummy1";
+            eventMessage.ProductId = "dummy_product_1";
+            eventMessage.Price = 10;
+            eventMessage.Quantity = 100;
+            eventMessage.SellerUserName = "test@test.com";
+
+            try
+            {
+                _eventBus.Publish(EventBusConstants.OrderCreateQueue, eventMessage);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "ERROR Publishing integration event: {EventId} from {AppName}", eventMessage.Id, "Sourcing");
+                throw;
+            }
+
+            return Accepted(eventMessage);
         }
 
     }

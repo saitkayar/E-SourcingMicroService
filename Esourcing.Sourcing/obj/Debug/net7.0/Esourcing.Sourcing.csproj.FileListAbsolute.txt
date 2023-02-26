@@ -88,3 +88,10 @@ C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\obj
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\obj\Debug\net7.0\Esourcing.Sourcing.pdb
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\obj\Debug\net7.0\Esourcing.Sourcing.genruntimeconfig.cache
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\obj\Debug\net7.0\ref\Esourcing.Sourcing.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\Polly.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\EventBusRabbitMQ.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Sourcing\bin\Debug\net7.0\EventBusRabbitMQ.pdb

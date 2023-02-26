@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "l6qOSH4LBlj+5ElPx1e1uI+WUBOJaF26v/hqsI48AkPPUEtjsOI8+UyeaCjxF6o9Wlz7zGxb9XhUif8t6OKbkA==",
+  "dgSpecHash": "fFiQ8dNwgo2bFkkejFxT6UjKqOANaof8cpgMr55swdyshn55Rtiix+cf50J+CxDi03VW7wC1p93upvfwyMTSiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Netix-71\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Netix-71\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Netix-71\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
+    "C:\\Users\\Netix-71\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Netix-71\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Netix-71\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
