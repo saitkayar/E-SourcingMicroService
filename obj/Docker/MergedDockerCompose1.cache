@@ -1,0 +1,54 @@
+name: dockercompose11891989257092874267
+services:
+  esourcing.products:
+    build:
+      context: C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService
+      dockerfile: ESourcing.Products/Dockerfile
+    container_name: esourcingproducts
+    depends_on:
+      sourcingdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ProductDatabaseSettings:ConnectionStrings: mongodb://sourcingdb:27017
+    image: esourcingproducts
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Netix-71\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Netix-71\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      bind:
+        create_host_path: true
+  sourcingdb:
+    container_name: sourcingdb
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /site
+      target: /data/db
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose11891989257092874267_default

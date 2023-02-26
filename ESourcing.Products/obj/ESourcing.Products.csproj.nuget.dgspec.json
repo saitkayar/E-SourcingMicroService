@@ -1,27 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\MyRepos\\Microservices\\src\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj": {}
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj": {}
   },
   "projects": {
-    "D:\\repos\\MyRepos\\Microservices\\src\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj": {
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\MyRepos\\Microservices\\src\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj",
+        "projectUniqueName": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj",
         "projectName": "ESourcing.Products",
-        "projectPath": "D:\\repos\\MyRepos\\Microservices\\src\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj",
-        "packagesPath": "C:\\Users\\Netix-39\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\MyRepos\\Microservices\\src\\E-SourcingMicroService\\ESourcing.Products\\obj\\",
+        "projectPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\ESourcing.Products\\ESourcing.Products.csproj",
+        "packagesPath": "C:\\Users\\Netix-71\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\ESourcing.Products\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\dev\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Netix-39\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Netix-71\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\dev\\Components\\System\\Components\\Packages": {},
-          "http://tfs.netix.com.tr:8080/tfs/NetixCollection/_packaging/NetixNuget/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,9 +44,9 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
-            "MongoDB.Bson": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[2.19.0, )"
+              "version": "[1.17.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -85,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
