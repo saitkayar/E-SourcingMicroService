@@ -13,7 +13,7 @@ namespace Ordering.Infrastructure.Repositories.Base
 {
     public class Repository<T> : IRepository<T> where T : Entity
     {
-        private readonly OrderContext context;
+        protected readonly OrderContext context;
 
         public Repository(OrderContext context)
         {
@@ -38,24 +38,35 @@ namespace Ordering.Infrastructure.Repositories.Base
             return await context.Set<T>().ToListAsync();
         }
 
-        public Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> predicate)
+        public async Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+          return await context.Set<T>().Where(predicate).ToListAsync();
         }
 
-        public Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> predicate = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeString = null, bool disableTracking = true)
+        public async Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> predicate = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeString = null, bool disableTracking = true)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = context.Set<T>();
+            if (disableTracking) query = query.AsNoTracking();
+
+            if (!string.IsNullOrWhiteSpace(includeString)) query = query.Include(includeString);
+
+            if (predicate != null) query = query.Where(predicate);
+
+            if (orderBy != null)
+                return await orderBy(query).ToListAsync();
+
+            return await query.ToListAsync();
         }
 
-        public Task<T> GetByIdAsync(int id)
+        public async Task<T> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+          return  await context.Set<T>().FindAsync(id); 
         }
 
-        public Task UpdateAsync(T entity)
+        public async Task UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            context.Set<T>().Update(entity);
+            await context.SaveChangesAsync();
         }
     }
 }
