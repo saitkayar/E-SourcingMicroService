@@ -1,0 +1,17 @@
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.deps.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.runtimeconfig.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Infrastructure.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\bin\Debug\net7.0\Ordering.Domain.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.AssemblyInfo.cs
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.csproj.CopyComplete
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\refint\Ordering.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\Ordering.Infrastructure.genruntimeconfig.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Ordering.Infrastructure\obj\Debug\net7.0\ref\Ordering.Infrastructure.dll
