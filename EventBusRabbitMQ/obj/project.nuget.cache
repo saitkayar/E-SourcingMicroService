@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fFiQ8dNwgo2bFkkejFxT6UjKqOANaof8cpgMr55swdyshn55Rtiix+cf50J+CxDi03VW7wC1p93upvfwyMTSiA==",
+  "dgSpecHash": "0/vfL9bS0c+zTCKQxUfiUS7FiEXdgV8YiFYFU4dI3Ru1V40VaeAWyU+uI6ZmB4SDki4wM036JJL5HJDsrWSFdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [
@@ -11,5 +11,12 @@
     "C:\\Users\\Netix-71\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Netix-71\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://tfs.netix.com.tr:8080/tfs/NetixCollection/_packaging/NetixNuget/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

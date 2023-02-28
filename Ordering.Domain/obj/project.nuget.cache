@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iPntBcBdaeG7BlNLZrdXedBsScqdlprPTlGcsgxNVwP7ffxqkLjtcZZ7a8L0eJmQJfEVnaCkt6QxdpaPVCMWjw==",
+  "dgSpecHash": "bNQf9cbg/YRhkYcgOwMeYWeCZAd7z3pjQvoqeNvwE45HtVm+m6xaPiWVBNb36FAxJBERcEcqEoMS5HqP9mFAdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\Ordering.Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://tfs.netix.com.tr:8080/tfs/NetixCollection/_packaging/NetixNuget/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

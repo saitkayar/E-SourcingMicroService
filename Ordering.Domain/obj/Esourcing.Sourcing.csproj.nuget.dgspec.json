@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\Ordering.Domain.csproj": {}
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.Sourcing\\Esourcing.Sourcing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\Ordering.Domain.csproj": {
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.Sourcing\\Esourcing.Sourcing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.Sourcing\\Esourcing.Sourcing.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.Sourcing\\Esourcing.Sourcing.csproj",
         "packagesPath": "C:\\Users\\Netix-71\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://tfs.netix.com.tr:8080/tfs/NetixCollection/_packaging/NetixNuget/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +73,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
