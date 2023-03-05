@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Ordering.Infrastructure.Repositories.Base;
+using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Infrastructure
 {
@@ -16,18 +18,18 @@ namespace Ordering.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<OrderContext>(opt => opt.UseInMemoryDatabase(databaseName: "InMemoryDb"),
-                                                ServiceLifetime.Singleton,
-                                                ServiceLifetime.Singleton);
-
-            //services.AddDbContext<OrderContext>(options =>
-            //        options.UseSqlServer(
-            //            configuration.GetConnectionString("OrderConnection"),
-            //            b => b.MigrationsAssembly(typeof(OrderContext).Assembly.FullName)), ServiceLifetime.Singleton);
+            //services.AddDbContext<OrderContext>(opt => opt.UseInMemoryDatabase(databaseName: "InMemoryDb"),
+            //                                    ServiceLifetime.Singleton,
+            //                                    ServiceLifetime.Singleton);
+             
+            services.AddDbContext<OrderContext>(options =>
+                    options.UseSqlServer(
+                        configuration.GetConnectionString("OrderConnection"),
+                        b => b.MigrationsAssembly(typeof(OrderContext).Assembly.FullName)), ServiceLifetime.Singleton);
 
             //Add Repositories
-            //services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
-            //services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient<IOrderRepository, OrderRepository>();
 
             return services;
         }

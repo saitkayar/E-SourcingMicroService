@@ -20,3 +20,16 @@ C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\ESourcing.Pr
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Esourcing.Sourcing.deps.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Esourcing.Sourcing.runtimeconfig.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Esourcing.Sourcing.exe
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Esourcing.Sourcing.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\EventBusRabbitMQ.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\AutoMapper.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Polly.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\Esourcing.Sourcing.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\bin\Debug\EventBusRabbitMQ.pdb

@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.UI\\Esourcing.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.UI\\Esourcing.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.UI\\Esourcing.UI.csproj",
+        "projectName": "Esourcing.UI",
+        "projectPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.UI\\Esourcing.UI.csproj",
+        "packagesPath": "C:\\Users\\Netix-71\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Netix-71\\Documents\\GitHub\\E-SourcingMicroService\\Esourcing.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Netix-71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tfs.netix.com.tr:8080/tfs/NetixCollection/_packaging/NetixNuget/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
