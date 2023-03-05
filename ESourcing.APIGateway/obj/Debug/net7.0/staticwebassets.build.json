@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cjTq3xpETa6aYhLb7XCvC4lg9Qd3cOmTgghStoNYH6A=",
+  "Source": "ESourcing.APIGateway",
+  "BasePath": "_content/ESourcing.APIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

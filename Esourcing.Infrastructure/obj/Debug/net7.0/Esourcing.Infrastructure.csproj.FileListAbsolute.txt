@@ -1,0 +1,15 @@
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\bin\Debug\net7.0\Esourcing.Infrastructure.deps.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\bin\Debug\net7.0\Esourcing.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\bin\Debug\net7.0\Esourcing.Infrastructure.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.AssemblyInfo.cs
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\refint\Esourcing.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\ref\Esourcing.Infrastructure.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\bin\Debug\net7.0\Esourcing.Core.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\bin\Debug\net7.0\Esourcing.Core.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Infrastructure\obj\Debug\net7.0\Esourcing.Infrastructure.csproj.CopyComplete

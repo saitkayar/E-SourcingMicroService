@@ -1,0 +1,12 @@
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\bin\Debug\net7.0\Esourcing.Core.deps.json
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\bin\Debug\net7.0\Esourcing.Core.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\bin\Debug\net7.0\Esourcing.Core.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.csproj.AssemblyReference.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.AssemblyInfoInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.AssemblyInfo.cs
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.csproj.CoreCompileInputs.cache
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\refint\Esourcing.Core.dll
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\Esourcing.Core.pdb
+C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.Core\obj\Debug\net7.0\ref\Esourcing.Core.dll
