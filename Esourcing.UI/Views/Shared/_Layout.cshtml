@@ -1,6 +1,7 @@
-﻿@using Microsoft.AspNetCore.Identity
-@*@inject SignInManager<AppUser> SignInManager
-@inject UserManager<AppUser> UserManager*@
+﻿
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
 
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +53,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <div class="sidebar">
 
-               @* <nav class="mt-2">
+                <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         @if (SignInManager.IsSignedIn(User))
                         {
@@ -108,7 +109,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-item nav-link" asp-controller="Home" asp-action="Login">
+                                <a class="nav-item nav-link"asp-controller="Home" asp-action="Login">
                                     <i class="nav-icon far fa-user"></i>
                                     <p>
                                         Login
@@ -117,7 +118,7 @@
                             </li>
                         }
                     </ul>
-                </nav>*@
+                </nav>
             </div>
         </aside>
 
@@ -136,7 +137,7 @@
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
-                    @RenderBody();
+                    @RenderBody()
                 </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->

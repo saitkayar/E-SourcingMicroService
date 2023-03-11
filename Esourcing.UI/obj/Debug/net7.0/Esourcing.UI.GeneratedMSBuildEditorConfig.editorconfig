@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Netix-71\Documents\GitHub\E-SourcingMicroService\Esourcing.UI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Netix-71/Documents/GitHub/E-SourcingMicroService/Esourcing.UI/Views/Auction/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Netix-71/Documents/GitHub/E-SourcingMicroService/Esourcing.UI/Views/Auction/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Netix-71/Documents/GitHub/E-SourcingMicroService/Esourcing.UI/Views/Auction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Netix-71/Documents/GitHub/E-SourcingMicroService/Esourcing.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
